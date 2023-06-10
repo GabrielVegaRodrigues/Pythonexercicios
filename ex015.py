@@ -1,0 +1,6 @@
+print('App aluguel de carro!')
+print('')
+km = float(input(f'Por favor, informe quantos KM você rodou com o veículo:\nKM:'))
+dias = float(input(f'Por favor informe quantos dias você ficou com o veículo:\nDias:'))
+p = float((60*dias) + (0.15*km))
+print(f'O valor total a ser pago é:\nR$: {p:,.2f}')

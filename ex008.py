@@ -1,0 +1,5 @@
+print('Conversor de medidas')
+print('')
+m = float(input('Digite um valor em metros:'))
+print(f'"{m:,.2f}" metro(s) equivale(m) a:\n{m*1000:.0f} milimetros\n{m*100:.0f} centimetros')
+print(f'{m*10:.0f} decimêtros\n{m/10:.2f} decâmetros\n{m/100:.2f} hectômetros\n{m/1000:.3f} quilômetros')

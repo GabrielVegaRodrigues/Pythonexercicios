@@ -1,0 +1,6 @@
+print('Vamos verificar se o seu nome contém a palavra Silva?\n')
+nome = input('Digite seu nome completo:\n').strip()
+nome = nome.title()
+nome = nome.split()
+print('Seu nome tem Silva?')
+print('Silva' in nome)

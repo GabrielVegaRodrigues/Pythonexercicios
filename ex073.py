@@ -1,0 +1,17 @@
+print('\033[1;33m-=-\033[m'*14)
+print(f'\033[1;33m------\033[m \033[4;31mTIMES DE FUTEBOL\033[m \033[1;33m-----\033[m')
+print('\033[1;33m-=-\033[m'*14, '\n')
+tabela = ('Palmeiras', 'Inter', 'Flu', 'Corinthians', 'Fla', 'Atlhetico-PR', 'Atlético-MG',
+          'Fortaleza','São Paulo', 'América', 'Botafogo', 'Santos', 'Goiás', 'Bragantino',
+          'Coritiba', 'Cuiabá', 'Ceara SC', 'Atlético-GO', 'Avaí', 'Juventude')
+print(f'Os cinco primeiros colocados são: {tabela[:5]}')
+print('~' * 90)
+print(f'Os quatro últimos colocados são: {tabela[-4:]}')
+print('~' * 90)
+print('Os times organizados por ordem alfabética são:\n', sorted(tabela))
+print('~' * 90)
+print(f'O Fortaleza está na {tabela.index("Fortaleza") + 1}ª colocação da tabela')
+print('~' * 90)
+print('\033[1;33m-=-\033[m'*11)
+print('\033[1;33m--------------\033[m \033[4;31mFIM\033[m \033[1;33m--------------\033[m')
+print('\033[1;33m-=-\033[m'*11, '\n')
